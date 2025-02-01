@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sign-up Form</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="left-side">
+      <div class="dark-container"></div>
+      <div class="logo">Travel Agency Name</div>
+    </div>
+    <div class="form-container">
+      <form class="form" action="">
+        <h2>Let's do this!</h2>
+        <div class="input-group-container">
+          <div class="left-inputs">
+            <div class="input-group">
+              <label for="first-name">First Name</label>
+              <input type="text" placeholder="John" id="first-name" name="first-name">
+            </div>
+
+            <div class="input-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" placeholder="Doe" id="last-name" name="last-name">
+            </div>
+
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input type="email" placeholder="example@email.com" id="email" name="email">
+            </div>
+          </div>
+
+          <div class="right-inputs">
+            <div class="input-group">
+              <label for="phone-number">Phone Number</label>
+              <input type="tel" placeholder="+1 (234) 567 89 00" id="phone-number" name="phone-number">
+            </div>
+
+            <div class="input-group">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" pattern=".{8,}" title="8 characters minimum"
+                placeholder="Your password">
+            </div>
+
+            <div class="input-group">
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" id="confirm-password" name="confirm-password" pattern=".{8,}"
+                title="8 characters minimum" placeholder="Confirm your password">
+            </div>
+          </div>
+        </div>
+
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </form>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
